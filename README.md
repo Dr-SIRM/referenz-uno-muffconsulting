@@ -1,36 +1,153 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Digital Vision - Swiss Digital Agency Website
 
-## Getting Started
+A professional, modern website for a Swiss digital agency showcasing premium web development services, e-commerce solutions, and cloud hosting with Swiss quality standards.
 
-First, run the development server:
+![Digital Vision](https://img.shields.io/badge/Next.js-15.5.4-black?style=for-the-badge&logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.0-38B2AC?style=for-the-badge&logo=tailwind-css)
 
+## ✨ Features
+
+### 🎨 **Premium Design & UX**
+- Modern, responsive design with Swiss quality aesthetics
+- Smooth scroll animations with intersection observers
+- Custom cursor effects and interactive elements
+- Professional color scheme with Swiss branding
+
+### 🚀 **Advanced Animations**
+- **Counter Animations**: Exponential easing with requestAnimationFrame
+- **Service Cards**: Staggered entrance animations with scale effects
+- **About Section**: Split-screen animations (left/right slide-in)
+- **Statistics**: Real-time counting with smooth easing curves
+
+### 🇨🇭 **Swiss Market Focus**
+- German language content optimized for Swiss market
+- Swiss-specific services (TWINT, PostFinance integration)
+- DSGVO-compliant hosting solutions
+- Multi-language support (DE, FR, IT, EN)
+
+### 🛠 **Technical Excellence**
+- **Next.js 15** with App Router
+- **TypeScript** for type safety
+- **Tailwind CSS 4** for styling
+- **Intersection Observer API** for performance-optimized animations
+- **Responsive design** for all devices
+
+## 🏗️ Project Structure
+
+```
+├── app/
+│   ├── layout.tsx          # Root layout with SEO metadata
+│   ├── page.tsx            # Home page
+│   └── globals.css         # Global styles
+├── components/
+│   └── TactusWebsite.tsx   # Main website component
+├── public/                 # Static assets
+└── README.md              # Project documentation
+```
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js 18+ 
+- npm or yarn
+
+### Installation
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/Dr-SIRM/referenz-uno-muffconsulting.git
+cd referenz-uno-muffconsulting
+```
+
+2. **Install dependencies**
+```bash
+npm install
+# or
+yarn install
+```
+
+3. **Run development server**
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. **Open your browser**
+Navigate to [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📱 Responsive Design
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The website is fully responsive with breakpoints optimized for:
+- **Mobile**: 320px - 767px
+- **Tablet**: 768px - 1023px  
+- **Desktop**: 1024px+
 
-## Learn More
+## 🎯 Performance Features
 
-To learn more about Next.js, take a look at the following resources:
+- **Optimized Animations**: Uses requestAnimationFrame for 60fps
+- **Intersection Observer**: Efficient scroll-based triggers
+- **CSS Transitions**: Hardware-accelerated transforms
+- **Image Optimization**: Next.js automatic image optimization
+- **SEO Optimized**: Complete metadata and structured data
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🌟 Animation Details
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Counter Animation
+- **Duration**: 2.5 seconds
+- **Easing**: Exponential ease-out
+- **Targets**: 250+ Swiss companies, 15 years experience
 
-## Deploy on Vercel
+### Service Cards
+- **Entrance**: Staggered slide-up with scale effect
+- **Delays**: 0.4s, 0.65s, 0.9s
+- **Easing**: Custom cubic-bezier curve
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### About Section
+- **Left Content**: Slide-in from left (-60px)
+- **Right Content**: Slide-in from right (+60px)
+- **Delay**: 0.3s for right content
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🎨 Color Palette
+
+- **Primary**: #00BCD4 (Cyan)
+- **Background**: #efefef (Light Gray)
+- **Text**: #212121 (Dark Gray)
+- **White**: #ffffff
+- **Accent**: #29639c (Blue)
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📞 Contact
+
+**Digital Vision AG**  
+Bahnhofstrasse 42, 8001 Zürich  
+Phone: +41 44 123 45 67  
+Email: kontakt@digitalvision.ch
+
+## 🏆 Showcase
+
+This project demonstrates:
+- Modern React/Next.js development practices
+- Advanced CSS animations and transitions
+- Performance-optimized scroll interactions
+- Professional Swiss business website standards
+- Responsive design principles
+- SEO optimization techniques
+
+Perfect for showcasing to potential clients or as a reference project for Swiss digital agencies.
+
+---
+
+**Built with ❤️ in Switzerland**

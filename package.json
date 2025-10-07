@@ -1,6 +1,25 @@
 {
-  "name": "template1",
-  "version": "0.1.0",
+  "name": "digital-vision-swiss-agency",
+  "version": "1.0.0",
+  "description": "Professional Swiss digital agency website with smooth animations and modern UI/UX. Built with Next.js, TypeScript, and Tailwind CSS.",
+  "keywords": [
+    "swiss-digital-agency",
+    "web-development",
+    "e-commerce",
+    "nextjs",
+    "typescript",
+    "tailwindcss",
+    "smooth-animations",
+    "responsive-design",
+    "swiss-quality"
+  ],
+  "author": "Digital Vision Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dr-SIRM/referenz-uno-muffconsulting.git"
+  },
+  "homepage": "https://digitalvision.ch",
   "private": true,
   "scripts": {
     "dev": "next dev",
